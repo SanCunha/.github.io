@@ -1,0 +1,26 @@
+{
+  "job": "Backend Developer",
+  "name": "San Cunha",
+  "desc": "I hold a degree in Computer Science with expertise in the field of APIs, and I have knowledge in JavaScript, TypeScript, Python, and C#. I am also a great enthusiast of combinatorial optimization and its algorithms, focusing on the traveling salesman and vehicle routing problems.",
+  "aboutDesc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+  "email": "sancunhas@outlook.com",
+  "status": "on",
+  "hireMeLink": "https://www.linkedin.com/in/san-cunha-da-silva/",
+  "projects": [
+    {
+      "project-image-url": "https://github.com/kaanayyildiz/benfolio/assets/39806458/9d826c30-0135-4620-8e0f-bc3460848e5e",
+      "project-name": "ACO Solve Visualization",
+      "project-desc": "Visualizer ACO using the Pygame library."
+    }
+  ],
+  "social": [
+    {
+      "icon": "FaGithub",
+      "link": "https://github.com/SanCunha"
+    },
+    {
+      "icon": "FaLinkedinIn",
+      "link": "https://www.linkedin.com/in/san-cunha-da-silva/"
+    }
+  ]
+}
