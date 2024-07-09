@@ -1,16 +1,35 @@
 {
   "job": "Backend Developer",
   "name": "San Cunha",
-  "desc": "I hold a degree in Computer Science with expertise in the field of APIs, and I have knowledge in JavaScript, TypeScript, Python, and C#. I am also a great enthusiast of combinatorial optimization and its algorithms, focusing on the traveling salesman and vehicle routing problems.",
-  "aboutDesc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+  "aboutDesc": "I hold a degree in Computer Science with expertise in the field of APIs, and I have knowledge in JavaScript, TypeScript, and Python. In recent years, I've been studying design patterns for creating tools, alongside being a great enthusiast of combinatorial optimization and its algorithms, focusing on the traveling salesman and vehicle routing problems.",
+  "desc": "Explore the possibilities of robust and efficient API development or the creation of tools to accelerate internal production processes. With expertise in delivering tailored solutions",
   "email": "sancunhas@outlook.com",
   "status": "on",
   "hireMeLink": "https://www.linkedin.com/in/san-cunha-da-silva/",
   "projects": [
     {
-      "project-image-url": "https://github.com/kaanayyildiz/benfolio/assets/39806458/9d826c30-0135-4620-8e0f-bc3460848e5e",
+      "project-image-url": "https://img.icons8.com/?size=100&id=64502&format=png&color=000000",
+      "project-name": "Self ORM",
+      "project-desc": "Tool to connect and perform actions on different databases",
+      "github-url": "https://github.com/SanCunha/self-orm"
+    },
+    {
+      "project-image-url": "https://img.icons8.com/?size=100&id=122843&format=png&color=000000",
+      "project-name": "Generate Form",
+      "project-desc": "Tool to generate HTML forms",
+      "github-url": "https://github.com/SanCunha/generate-form"
+    },
+    {
+      "project-image-url": "https://img.icons8.com/?size=100&id=Oz14KBnT7lnn&format=png&color=000000",
+      "project-name": "JSON/XML API",
+      "project-desc": "Tool for converting requests and responses from JSON to XML and vice versa",
+      "github-url": "https://github.com/SanCunha/json-xml_api"
+    },
+    {
+      "project-image-url": "https://img.icons8.com/?size=100&id=NWDdvWhVKCr9&format=png&color=000000",
       "project-name": "ACO Solve Visualization",
-      "project-desc": "Visualizer ACO using the Pygame library."
+      "project-desc": "Tool to Visualize ACO using the Pygame library.",
+      "github-url": "https://github.com/SanCunha/aco-solve-visualization"
     }
   ],
   "social": [

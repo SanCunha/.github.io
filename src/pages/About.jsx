@@ -1,4 +1,4 @@
-import profile from "../assets/profile.png";
+import profile from "../assets/profile.jpg";
 import CopyEmailButton from "../components/CopyEmailButton";
 import { getConfigData } from "../data/configReader";
 
@@ -20,13 +20,16 @@ export default function About() {
           <p className="text-lg text-gray-500 text-center md:text-justify font-normal tracking-tigh">
             {configData.aboutDesc}
           </p>
-          <img className="border rounded-md p-3 grayscale shadow-md" src="src/assets/source.png" alt="" />
+          <small className="text-gray-500 text-center md:text-justify font-normal tracking-tigh">            
+            And... I love some little beers! hehe
+          </small>
+          <img className="border rounded-md p-3 grayscale shadow-md" src="src/assets/source.jpg" alt="" />
         </div>
       </div>
       <div className="flex flex-col items-center justify-center">
         <h1 className="text-3xl font-semibold">Let's work together.</h1>
         <p className="text-md font-normal text-gray-500 text-center px-3">
-          Creating user experience and visual appealing design
+        I'm here to enhance your projects and streamline your operations. Let's collaborate and transform your ideas into reality. Whether it's building powerful APIs or crafting tools for internal efficiency, I'm committed to driving your success
         </p>
       </div>
       <div className="flex flex-col flex-col-reverse md:flex md:flex-row md:items-center justify-center py-8">
