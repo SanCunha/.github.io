@@ -52,14 +52,14 @@ export default function Card() {
           <div className="flex flex-col">
             {projects.map((project, index) => (
               <a
-              key={index}
-              onMouseEnter={handleMouseEnter}
-              onMouseLeave={handleMouseLeave}
-              className="drop-shadow-md card bg-white rounded-lg px-5 py-3 gap-x-3 flex flex-col md:flex-none md:flex-row hover:-translate-y-1 hover:scale-100 duration-300 transition ease-in-out delay-150 hover:shadow-sm border border-gray-200 hover:border-gray-300"
-              href={project["github-url"]} // Adiciona o link do GitHub aqui
-              target="_blank" // Abre o link em uma nova aba
-              rel="noopener noreferrer" // Boas práticas para segurança ao abrir links externos
-            >
+                key={index}
+                onMouseEnter={handleMouseEnter}
+                onMouseLeave={handleMouseLeave}
+                className="drop-shadow-md card bg-white rounded-lg px-5 py-3 gap-x-3 flex flex-col md:flex-none md:flex-row hover:-translate-y-1 hover:scale-100 duration-300 transition ease-in-out delay-150 hover:shadow-sm border border-gray-200 hover:border-gray-300"
+                href={project["github-url"]} // Adiciona o link do GitHub aqui
+                target="_blank" // Abre o link em uma nova aba
+                rel="noopener noreferrer" // Boas práticas para segurança ao abrir links externos
+              >
                 <div className="rounded-full overflow-hidden flex items-center justify-center border border-gray-200 hidden md:block">
                   <div className="card-image w-16 h-16 rounded-full overflow-hidden">
                     <img
@@ -69,11 +69,11 @@ export default function Card() {
                     />
                   </div>
                 </div>
-                <div className="flex flex-col justify-center">
+                <div className="flex flex-col justify-center flex-1">
                   <h1 className="font-medium text-lg">
                     {project["project-name"]}
                   </h1>
-                  <p className="text-gray-500 text-md">
+                  <p className="text-gray-500 text-md max-w-xs truncate">
                     {project["project-desc"]}
                   </p>
                 </div>
